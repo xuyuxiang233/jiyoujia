@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body .pages {
+  width: 100%;
+}
+body .pages .header {
+  width: 1190px;
+  height: 41px;
+  margin: 10px auto;
+  background-color: #f5f5f5;
+  border: 1px solid #e5e5e5;
+}
+body .pages .header a .sort {
+  width: 100px;
+  height: 39px;
+  display: inline-block;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  color: #6d6d6d;
+  line-height: 40px;
+  font-family: "黑体";
+  padding: 0 15px;
+}
+body .pages .header a .sort:hover {
+  color: #f50;
+  background-color: #fff;
+}
+body .pages .header a .section {
+  width: 210px;
+  height: 41px;
+  float: left;
+  padding: 0 12px;
+}
+body .pages .header a .section .price {
+  width: 55px;
+  height: 23px;
+  border: 1px solid #e5e5e5;
+  color: #a9a9a9;
+  margin-top: 8px;
+}
+body .pages .header a .section span {
+  color: #6d6d6d;
+}
+body .pages .header a .section .sureBtn {
+  width: 44px;
+  height: 23px;
+  color: #fff;
+  background-color: #f82800;
+  margin-left: 10px;
+  opacity: 0;
+  border-radius: 3px;
+}
+body .pages .header a .section:hover {
+  height: 39px;
+  background-color: #fff;
+}
+body .pages .header a .section:hover .sureBtn {
+  opacity: 1;
+}
+body .pages .header a .paging {
+  float: right;
+  width: 135px;
+  height: 41px;
+  line-height: 39px;
+}
+body .pages .header a .paging .turing {
+  list-style: none;
+}
+body .pages .header a .paging .turing .lastPaging {
+  float: left;
+  display: block;
+  padding: 0 15px;
+  height: 39px;
+}
+body .pages .header a .paging .turing .nowPaging {
+  float: left;
+  display: block;
+  height: 39px;
+}
+body .pages .header a .paging .turing .nextPaging {
+  float: left;
+  display: block;
+  padding: 0 15px;
+  height: 39px;
+}
+body .pages .inner {
+  width: 1190px;
+  margin: 0 auto;
+  padding-top: 31px;
+}
+body .pages .inner .inner_box {
+  width: 222px;
+  height: 356px;
+  float: left;
+  border: 1px solid #ededed;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+body .pages .inner .inner_box .imgBox {
+  display: block;
+  width: 220px;
+  height: 220px;
+}
+body .pages .inner .inner_box .jiaGe {
+  height: 40px;
+  font-size: 16px;
+  padding-top: 14px;
+}
+body .pages .inner .inner_box .jiaGe .howMuch {
+  display: block;
+  font-weight: bold;
+  color: #f40;
+  padding-top: 1px;
+  float: left;
+}
+body .pages .inner .inner_box .jiaGe .baoYou {
+  display: inline-block;
+  width: 27px;
+  height: 14px;
+  background-color: #f40;
+  color: #fff;
+  font-size: 8px;
+  text-align: center;
+  padding-top: 1px;
+  margin-left: 2px;
+}
+body .pages .inner .inner_box .jiaGe span {
+  color: #f40;
+  font-weight: bold;
+  padding-top: 1px;
+  float: left;
+}
+body .pages .inner .inner_box .jiaGe span:not(.howMuch) {
+  padding-left: 8px;
+  display: inline-block;
+}
+body .pages .inner .inner_box .introduce {
+  height: 35px;
+  width: 210px;
+  padding-left: 8px;
+  font-size: 12px;
+  color: #303030;
+  overflow: hidden;
+  line-height: 16px;
+  font-family: Microsoft Yahei;
+}
+body .pages .inner .inner_box .introduce:hover {
+  text-decoration: underline;
+  color: #f40;
+}
+body .pages .inner .inner_box .bottomBox {
+  width: 220px;
+  height: 30px;
+  position: relative;
+  margin-top: 5px;
+}
+body .pages .inner .inner_box .bottomBox .USM {
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+  color: #888;
+  padding-top: 5px;
+  padding-left: 9px;
+}
+body .pages .inner .inner_box .bottomBox .USM:hover {
+  text-decoration: underline;
+  color: #f40;
+}
+body .pages .inner .inner_box .bottomBox .place {
+  display: inline-block;
+  font-size: 12px;
+  width: 80px;
+  color: #303030;
+  padding-top: 5px;
+  position: absolute;
+  top: -0.5px;
+  left: 150px;
+  padding-right: 9px;
+}
+body .pages .inner .inner_box .bottomBox .Buy {
+  display: inline-block;
+  position: absolute;
+  width: 66px;
+  height: 20px;
+  top: 27px;
+  left: 79px;
+  background-color: #f40;
+  border: 1px solid #f40;
+}
+body .pages .inner .inner_box .bottomBox .Buy input {
+  width: 66px;
+  height: 20px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 3px;
+}
+body .pages .inner .inner_box .footBox {
+  width: 220px;
+  height: 18px;
+}
+body .pages .inner .inner_box .footBox .icon1 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-left: 5px;
+}
+body .pages .inner .inner_box .footBox .icon2 {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-left: 5px;
+}
+body .pages .inner .inner_box:hover {
+  border: 1px solod #f40;
+}
